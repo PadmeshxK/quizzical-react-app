@@ -6,6 +6,9 @@ import QuestionsPage from './Components/QuestionsPage'
 import {motion} from 'framer-motion'
 
 export default function App(){
+    React.useEffect(() => {
+        document.title = "Quizzical";
+    }, []); 
     const [pageTracker,setPageTracker] = React.useState(1)
     const [questionsArr,setQuestionsArr] = React.useState([])
     const [userAnswers,setUserAnswers] = React.useState({})
