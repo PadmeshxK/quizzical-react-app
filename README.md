@@ -14,6 +14,6 @@ A fun and interactive quiz application built with React. Test your knowledge on 
 - Framer Motion (for animations)
 
 ## Live Demo
-Visit the live quiz app at: ()
+Visit the live quiz app at: (https://padmeshxk.github.io/quizzical-react-app/)
 
 
